@@ -160,7 +160,7 @@ export const LeadModal = ({ open, onOpenChange }: LeadModalProps) => {
               />
               <Label 
                 htmlFor="consent" 
-                className="text-sm text-muted-foreground cursor-pointer leading-relaxed"
+                className="text-xs text-muted-foreground cursor-pointer leading-relaxed"
               >
                 Autorizo o contato para apresentar o pacote e propostas. *
               </Label>

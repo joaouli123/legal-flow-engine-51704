@@ -42,7 +42,6 @@ export const Pricing = ({ onOpenModal }: PricingProps) => {
                 </div>
                 <div className="space-y-1.5 text-sm text-muted-foreground">
                   <p>✓ Sem fidelidade. Cancele quando quiser.</p>
-                  <p>✓ Verba de mídia não inclusa (definida conforme objetivo e região).</p>
                 </div>
               </div>
 

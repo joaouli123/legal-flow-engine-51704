@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="flex items-center gap-3">
               <div className="h-10 w-auto">
                 <img 
-                  src="/src/assets/logo.png" 
+                  src="/src/assets/logo-vellum.png" 
                   alt="Agência Vellum" 
                   className="h-full w-auto object-contain"
                 />

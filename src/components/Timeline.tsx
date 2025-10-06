@@ -15,19 +15,19 @@ interface TimelineProps {
 const phases = [
   {
     icon: Calendar,
-    week: "Semanas 1–2",
+    week: "Semana 1",
     title: "Diagnóstico & Plano",
     description: "Reunião (15–30 min), definição de nicho/mensagens, calendário editorial; entrega do Plano de 30 dias."
   },
   {
     icon: Layout,
-    week: "Semanas 3–4",
+    week: "Semana 2",
     title: "Páginas & Copy",
     description: "Design da LP, textos e FAQ. SEO on-page e revisão de compliance."
   },
   {
     icon: Settings,
-    week: "Semanas 3–4",
+    week: "Semana 3",
     title: "Setup técnico",
     description: "Domínio, hospedagem, SSL, Google Business Profile, GTM/GA4 e eventos."
   },

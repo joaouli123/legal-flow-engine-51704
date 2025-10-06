@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import landingPageMockup from "@/assets/landing-page-mockup.png";
-import googleSearchMockup from "@/assets/google-search-mockup.png";
+import googleSearchMockup from "@/assets/google-search-phone.png";
 
 interface ModulesProps {
   onOpenModal: () => void;
@@ -116,13 +116,13 @@ export const Modules = ({ onOpenModal }: ModulesProps) => {
                     <img 
                       src={landingPageMockup} 
                       alt="Mockup de landing page em dispositivos" 
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain scale-150"
                     />
                   ) : idx === 2 ? (
                     <img 
                       src={googleSearchMockup} 
                       alt="Google Search - Advogado em SP" 
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   ) : (
                     <div className="w-full h-full bg-secondary/30 rounded-xl flex items-center justify-center">

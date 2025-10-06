@@ -77,7 +77,7 @@ export const FitSection = ({ onOpenModal }: FitSectionProps) => {
               size="lg" 
               data-cta="fit"
             >
-              Tenho fit — quero começar
+              Tenho Interesse — quero começar
             </Button>
           </div>
         </div>
