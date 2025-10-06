@@ -31,15 +31,12 @@ export const Header = ({ onOpenModal }: HeaderProps) => {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="h-10 w-auto">
+            <div className="h-14 w-auto">
               <img 
                 src="/src/assets/logo-vellum.png" 
-                alt="Agência Vellum" 
+                alt="Agência Vellum - Marketing Jurídico Estratégico" 
                 className="h-full w-auto object-contain"
               />
-            </div>
-            <div className="hidden md:block">
-              <span className="text-sm text-muted-foreground">Marketing Jurídico Estratégico</span>
             </div>
           </div>
 
