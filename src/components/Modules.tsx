@@ -111,7 +111,7 @@ export const Modules = ({ onOpenModal }: ModulesProps) => {
 
               {/* Image placeholder */}
               <div className={`${idx % 2 === 1 ? "lg:order-1" : ""}`}>
-                <div className="bg-card border border-border rounded-2xl p-8 aspect-video flex items-center justify-center overflow-hidden">
+                <div className="bg-card border border-border rounded-2xl p-8 flex items-center justify-center overflow-hidden" style={{ minHeight: '400px' }}>
                   {idx === 1 ? (
                     <img 
                       src={landingPageMockup} 
@@ -122,7 +122,7 @@ export const Modules = ({ onOpenModal }: ModulesProps) => {
                     <img 
                       src={googleSearchMockup} 
                       alt="Google Search - Advogado em SP" 
-                      className="h-full w-auto object-contain scale-125"
+                      className="h-full w-auto object-contain scale-[2]"
                     />
                   ) : (
                     <div className="w-full h-full bg-secondary/30 rounded-xl flex items-center justify-center">
