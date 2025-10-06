@@ -122,7 +122,7 @@ export const Modules = ({ onOpenModal }: ModulesProps) => {
                     <img 
                       src={googleSearchMockup} 
                       alt="Google Search - Advogado em SP" 
-                      className="w-full h-full object-contain"
+                      className="h-full w-auto object-contain scale-125"
                     />
                   ) : (
                     <div className="w-full h-full bg-secondary/30 rounded-xl flex items-center justify-center">
